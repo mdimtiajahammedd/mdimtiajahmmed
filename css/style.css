@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Miriam+Libre&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+/* Start Scrollber */
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #024141;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #00AD1D;
+}
+
+/* End Scroolber */
+
+section {
+    width: 100%;
+    height: 100vh;
+    background: #024141;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section .content .img-border {
+    width: 290px;
+    height: 290px;
+    background: #026666;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35px;
+}
+
+section .content .img-border img {
+    width: 270px;
+    height: 270px;
+    border-radius: 100%;
+}
+
+section .content h1 {
+    text-align: center;
+    color: #ffffff;
+    padding-top: 20px;
+}
+
+section .content p {
+    text-align: center;
+    color: #ffffff;
+    padding-top: 5px;
+    font-weight: 400;
+}
+
+section .content .button {
+    display: flex;
+}
+
+section .content .button .download {
+    text-decoration: none;
+    color: white;
+    margin-top: 15px;
+    width: 140px;
+    height: 40px;
+    background: #000;
+    margin-left: 20px;
+    border-radius: 2px;
+    padding: 10px;
+    background: #026666;
+    font-weight: 500;
+}
+
+section .content .button .download a {
+    background: none;
+    padding: 10px 10px;
+}
+
+section .content .button .download:hover {
+    background: #0266;
+}
+
+section .content .button .cannel {
+    text-decoration: none;
+    color: white;
+    margin-top: 15px;
+    width: 180px;
+    height: 40px;
+    background: #026666;
+    margin-left: 20px;
+    border-radius: 2px;
+    padding: 10px;
+    font-weight: 500;
+}
+
+section .content .button .cannel a {
+    background: none;
+}
+
+section .content .button .cannel:hover {
+    background: #0266;
+}
+
+.social-icon {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    gap: 10px;
+}
+
+.social-icon a {
+    text-decoration: none;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding: 9px;
+    background: 15px;
+    background: #024141;
+    border-radius: 100px;
+    font-size: 18px;
+}
+.social-icon a:hover{
+    background: #979797;
+    transition: 0.5s;
+}
+.discription-section {
+    background: #fff;
+    width: 100%;
+    height: auto;
+}
+
+.discription-section .discription {
+    display: flex;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 50px;
+    background: white;
+    box-shadow: -2px 3px 17px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -2px 3px 17px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -2px 3px 17px 0px rgba(0, 0, 0, 0.75);
+}
+
+.discription-section .about-me {
+    width: 60%;
+    padding-left: 20px;
+    font-size: 19px;
+}
+
+.discription-section .about-me b p {
+    font-size: 25px;
+}
+
+.discription-section .information {
+    width: 30%;
+    padding-left: 35px;
+    font-size: 17.5px;
+}
+
+.discription-section .information b p {
+    font-size: 25px;
+}
+
+.copyright-section{
+    margin-top: 150px;
+    width: 100%;
+    height: 100px;
+    background: #036464;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copyright-section h3 a{
+    text-decoration: none;
+    color: white;
+}
